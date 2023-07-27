@@ -1,6 +1,6 @@
 // scripts.js
 // Initialize the score display
-updateScore();
+updateScore(score);
 
 // Set up event listener for speed range input
 const speedRange = document.getElementById("speedRange");

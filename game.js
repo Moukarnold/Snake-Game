@@ -63,7 +63,7 @@ function gameEngine() {
       localStorage.setItem("highScore", JSON.stringify(highScoreValue));
     }
 
-    updateScore();
+    updateScore(score);
 
     // Generate new food at random position
     let a = 2;

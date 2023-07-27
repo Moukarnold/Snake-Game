@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background: url("bj.jgp");
+  min-height: 100 yh;
+  background-size: 100 vw 100 vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#playArea{
+   background: linear-gradient( rgb (147 149 147 ));
+   background-color: aquamarine;
+   width: 92vmin;
+   height: 92vmin;
+   border: 2px solid black;
+   display: grid;
+   grid-template-rows: repeat(18, 1fr);
+   grid-template-columns:repeat(18, 1fr) ;
+}
+
+.snake{
+background-color: purple;
+
+}
+
+.food{
+ background-color: yellow;
+
+}
+
+.head{
+    background-color: red;
+}
+
+.scorebox{
+ position: absolute;
+
+
+}
+
+.highScorebox{
+  position: absolute;
+
+}
+

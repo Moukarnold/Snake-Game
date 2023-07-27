@@ -2,7 +2,7 @@
 let highScoreValue = 0;
 
 // Function to update score display
-function updateScore() {
+function updateScore(score) {
   const scorebox = document.getElementById("scorebox");
   scorebox.innerHTML = "Score: " + score;
 
